@@ -1,2 +1,2 @@
 # Plannit
-An Ecommerce Web Application
+An E-commerce Web Application
