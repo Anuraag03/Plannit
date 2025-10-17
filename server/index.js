@@ -27,7 +27,7 @@ app.get('/',(req,res)=>{
     res.send('Landing');
 });
 app.get('/home', authenticateToken, (req,res)=>{
-    res.send(`Home - Welcome ${req.user.email}`);
+    res.send(`Home`);
 });
 
 app.listen(process.env.PORT||3000,()=>{
